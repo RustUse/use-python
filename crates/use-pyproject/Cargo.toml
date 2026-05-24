@@ -1,0 +1,23 @@
+[package]
+name = "use-pyproject"
+description = "pyproject.toml metadata primitives for RustUse"
+publish = true
+autoexamples = false
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-pyproject"
+keywords = ["python", "pyproject", "metadata"]
+categories = ["config", "development-tools"]
+
+[[example]]
+name = "pyproject_basic_usage"
+path = "examples/basic_usage.rs"
+
+[lints]
+workspace = true

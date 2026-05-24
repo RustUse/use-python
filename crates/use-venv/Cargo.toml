@@ -1,0 +1,23 @@
+[package]
+name = "use-venv"
+description = "Python virtual environment metadata primitives for RustUse"
+publish = true
+autoexamples = false
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-venv"
+keywords = ["python", "venv", "environment"]
+categories = ["development-tools"]
+
+[[example]]
+name = "venv_basic_usage"
+path = "examples/basic_usage.rs"
+
+[lints]
+workspace = true

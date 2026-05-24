@@ -1,0 +1,23 @@
+[package]
+name = "use-uv"
+description = "uv command and project metadata primitives for RustUse"
+publish = true
+autoexamples = false
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-uv"
+keywords = ["python", "uv", "metadata"]
+categories = ["development-tools"]
+
+[[example]]
+name = "uv_basic_usage"
+path = "examples/basic_usage.rs"
+
+[lints]
+workspace = true

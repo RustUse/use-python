@@ -1,0 +1,38 @@
+[package]
+name = "use-python"
+description = "Facade crate for RustUse Python ecosystem primitives"
+publish = true
+autoexamples = false
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-python"
+keywords = ["python", "facade", "metadata"]
+categories = ["development-tools"]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[dependencies]
+use-pip.workspace = true
+use-pyproject.workspace = true
+use-pytest.workspace = true
+use-python-identifier.workspace = true
+use-python-keyword.workspace = true
+use-python-module.workspace = true
+use-python-value.workspace = true
+use-python-version.workspace = true
+use-uv.workspace = true
+use-venv.workspace = true
+
+[[example]]
+name = "python_facade_basic_usage"
+path = "examples/basic_usage.rs"
+
+[lints]
+workspace = true

@@ -1,0 +1,26 @@
+[package]
+name = "use-python-identifier"
+description = "ASCII-safe Python identifier primitives for RustUse"
+publish = true
+autoexamples = false
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-python-identifier"
+keywords = ["python", "identifier", "validation"]
+categories = ["development-tools", "parser-implementations"]
+
+[dependencies]
+use-python-keyword.workspace = true
+
+[[example]]
+name = "python_identifier_basic_usage"
+path = "examples/basic_usage.rs"
+
+[lints]
+workspace = true

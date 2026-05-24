@@ -1,0 +1,26 @@
+[package]
+name = "use-pytest"
+description = "pytest metadata primitives for RustUse"
+publish = true
+autoexamples = false
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-pytest"
+keywords = ["python", "pytest", "testing"]
+categories = ["development-tools", "development-tools::testing"]
+
+[dependencies]
+use-python-identifier.workspace = true
+
+[[example]]
+name = "pytest_basic_usage"
+path = "examples/basic_usage.rs"
+
+[lints]
+workspace = true

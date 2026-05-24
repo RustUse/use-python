@@ -1,0 +1,23 @@
+[package]
+name = "use-python-keyword"
+description = "Python keyword and soft-keyword primitives for RustUse"
+publish = true
+autoexamples = false
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-python-keyword"
+keywords = ["python", "keyword", "reserved"]
+categories = ["development-tools", "parser-implementations"]
+
+[[example]]
+name = "python_keyword_basic_usage"
+path = "examples/basic_usage.rs"
+
+[lints]
+workspace = true

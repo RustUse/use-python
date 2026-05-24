@@ -1,0 +1,46 @@
+[workspace]
+release_commits = "^chore: release"
+
+[[package]]
+name = "use-python"
+publish = false
+
+[[package]]
+name = "use-python-version"
+publish = false
+
+[[package]]
+name = "use-python-identifier"
+publish = false
+
+[[package]]
+name = "use-python-keyword"
+publish = false
+
+[[package]]
+name = "use-python-value"
+publish = false
+
+[[package]]
+name = "use-python-module"
+publish = false
+
+[[package]]
+name = "use-pyproject"
+publish = false
+
+[[package]]
+name = "use-pip"
+publish = false
+
+[[package]]
+name = "use-uv"
+publish = false
+
+[[package]]
+name = "use-venv"
+publish = false
+
+[[package]]
+name = "use-pytest"
+publish = false

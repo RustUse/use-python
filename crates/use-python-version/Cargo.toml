@@ -1,0 +1,23 @@
+[package]
+name = "use-python-version"
+description = "Python version and implementation primitives for RustUse"
+publish = true
+autoexamples = false
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-python-version"
+keywords = ["python", "version", "metadata"]
+categories = ["development-tools"]
+
+[[example]]
+name = "python_version_basic_usage"
+path = "examples/basic_usage.rs"
+
+[lints]
+workspace = true
