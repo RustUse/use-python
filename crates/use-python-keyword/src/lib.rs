@@ -265,8 +265,8 @@ fn non_empty(input: &str) -> Result<&str, PythonKeywordParseError> {
 #[cfg(test)]
 mod tests {
     use super::{
-        is_python_keyword, is_python_reserved_word, is_python_soft_keyword, PythonKeyword,
-        PythonKeywordParseError, PythonReservedWord, PythonSoftKeyword,
+        PythonKeyword, PythonKeywordParseError, PythonReservedWord, PythonSoftKeyword,
+        is_python_keyword, is_python_reserved_word, is_python_soft_keyword,
     };
 
     #[test]

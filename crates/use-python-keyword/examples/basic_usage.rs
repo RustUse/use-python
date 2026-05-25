@@ -1,4 +1,4 @@
-use use_python_keyword::{is_python_reserved_word, PythonKeyword, PythonSoftKeyword};
+use use_python_keyword::{PythonKeyword, PythonSoftKeyword, is_python_reserved_word};
 
 fn main() -> Result<(), use_python_keyword::PythonKeywordParseError> {
     let keyword: PythonKeyword = "async".parse()?;
